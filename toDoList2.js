@@ -42,6 +42,7 @@ const todoAdd = () => {
   let todoContent = document.getElementById("todo-content").value;
   const tasks = document.getElementById("tasks");
   tasks.append(makeHtml(todoContent));
+  document.getElementById("todo-content").value = "";
 };
 
 /**
