@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./toDoList2.css" />
+  </head>
+
+  <body>
+    <div id="newtask" style="float: left; width: 63%">
+      <button id="timer" style="width: 36%">현재 시간</button>
+    </div>
+
+    <div class="container">
+      <div id="newtask">
+        <input
+          id="todo-content"
+          type="text"
+          placeholder="할일을 입력해주세요"
+        />
+        <button id="todo-add-btn" onclick="todoAdd('zzz')">추가</button>
+      </div>
+      <div id="tasks"></div>
+    </div>
+
+    <script src="./toDoList2.js"></script>
+  </body>
+</html>
